@@ -1,8 +1,8 @@
 function manageButtons(e) {
-  if (e.target.textContent === "del") {
+  if (e.target.textContent === "DEL") {
     displayContent = displayContent.slice(0, displayContent.length - 1);
     display.textContent = displayContent;
-  } else if (e.target.textContent === "reset") {
+  } else if (e.target.textContent === "RESET") {
     displayContent = "";
     display.textContent = displayContent;
   } else if (e.target.textContent === "=") {
